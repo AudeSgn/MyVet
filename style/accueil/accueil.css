@@ -43,7 +43,6 @@ section.landing-page {
 
 .container {
     display: flex;
-    justify-content: center;
     margin: 20px;
 }
 
@@ -51,10 +50,14 @@ h1 {
     text-align: center;
 }
 
+.bouttons {
+    display: flex;
+    justify-content: center;
+}
+
 .landing-page .inputs,
 input[type="text"],
 input[type="submit"] {
-    display: block;
     border-radius: 10px;
     border-width: 0.5px;
     border-color: black;
@@ -62,20 +65,12 @@ input[type="submit"] {
     background-color: #00080E;
     opacity: 0.6;
     cursor: pointer;
-    /* margin-top: 4px; */
     margin: 8px;
     width: 60px;
-
 }
 
 #searchbar {
     width: 70px;
-}
-
-.bouttons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 a {
@@ -83,20 +78,8 @@ a {
     text-decoration: none;
 }
 
-/* .boutton {
-    position: relative;
-}
-
-.boutton .groupe i {
-    position: absolute;
-    align-items: flex-start; */
-form.sendemail {
-    justify-content: center;
-}
-
 #rappel {
-    width: 150px;
-    margin-top: 50px;
+    width: 140px;
 }
 
 .scroller {

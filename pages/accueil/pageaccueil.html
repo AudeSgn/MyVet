@@ -13,7 +13,7 @@
 <body>
     <section class="top-page">
         <header class="header">
-            <img src="C:\Users\utilisateur\Documents\Projet décembre 2022\MyVet\logo_association.png" alt="logo" />
+            <img src="../../image/logo_association.png" alt="logo" />
             <nav class="nav">
                 <li id="compte"><a href="compte">Compte</a></li>
                 <li id="deconnexion"><a href="deconnexion">Déconnexion</a></li>
@@ -50,12 +50,11 @@
                 <li><a href="client7">Nom du client - N° de dossier</a></li>
                 <li><a href="client8">Nom du client - N° de dossier</a></li>
             </ul>
-            <form action="../../controller/accueil/mailrappel.php" method="send_email">
-                <a href="mailto:aude.seguin.simplon@gmail.com"></a>
-                <div class="rappel">
-                    <input type="submit" id="rappel" value="Rappel des vaccins" id="sendemail">
-                </div>
-            </form>
+            <div class="bouttons">
+                <form action="../../controller/accueil/mailrappel.php" method="send_email">
+                    <input type="submit" id="rappel" value="Rappel des vaccins">
+                </form>
+            </div>
         </section>
         <section class="calendar">
             <div id="Agenda">

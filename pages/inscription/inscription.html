@@ -9,42 +9,44 @@
 </head>
 
 <body>
-	<!-- <div class="logo" align="center">
-		<img src="C:\Users\utilisateur\Documents\Projet décembre 2022\MyVet\VS code\logo_association.png" alt="logo" />
-	</div> -->
-	<form action="../../controller/inscription/traitement.php" method="post" id="loginForm">
+	<header class="entete">
 		<div align="center">
-			<h1>Créer votre compte sur MyVet</h1>
-			<div class="corps-formulaire">
-				<div class="champs">
-					<input type="text" id="nom" placeholder="Nom" required>
-					<!-- <i class="fas fa-user"></i> -->
-				</div>
-				<!-- <span id="error"></span> -->
-				<div class="champs">
-					<input type="text" id="prenom" placeholder="Prénom" required>
-					<!-- <i class="fas fa-user"></i> -->
-				</div>
-				<div class="champs">
-					<input type="email" id="mail" placeholder="Adresse mail" required>
-					<!-- <i class="fas fa-at"></i> -->
-				</div>
-				<div class="champs">
-					<input type="password" id="password" placeholder="Mot de passe" required>
-					<!-- <i class="fas fa-lock"></i> -->
-				</div>
-				<div class="champs">
-					<input type="password" id="password" placeholder="Confirmation du mot de passe" required>
-					<!-- <i class="fas fa-lock"></i> -->
-				</div>
-			</div>
-			<div class="termsOfUsage">
-				<input type="checkbox" id="checkbox" required>
-				<p class="conditions">J'accepte les conditions d'utilisation</p>
-			</div>
-			<input type="submit" value="Valider">
+			<img src="../../image/logo_association.png" alt="logo" />
 		</div>
-	</form>
+		<form action="../../controller/inscription/traitement.php" method="post" id="loginForm">
+			<div align="center">
+				<h1>Créer votre compte sur MyVet</h1>
+				<div class="corps-formulaire">
+					<div class="champs">
+						<input type="text" id="nom" placeholder="Nom" required>
+						<!-- <i class="fas fa-user"></i> -->
+					</div>
+					<!-- <span id="error"></span> -->
+					<div class="champs">
+						<input type="text" id="prenom" placeholder="Prénom" required>
+						<!-- <i class="fas fa-user"></i> -->
+					</div>
+					<div class="champs">
+						<input type="email" id="mail" placeholder="Adresse mail" required>
+						<!-- <i class="fas fa-at"></i> -->
+					</div>
+					<div class="champs">
+						<input type="password" id="password" placeholder="Mot de passe" required>
+						<!-- <i class="fas fa-lock"></i> -->
+					</div>
+					<div class="champs">
+						<input type="password" id="password" placeholder="Confirmation du mot de passe" required>
+						<!-- <i class="fas fa-lock"></i> -->
+					</div>
+				</div>
+				<div class="termsOfUsage">
+					<input type="checkbox" id="checkbox" required>
+					<p class="conditions">J'accepte les conditions d'utilisation</p>
+				</div>
+				<input type="submit" value="Valider">
+			</div>
+		</form>
+	</header>
 	<script src="https://kit.fontawesome.com/53cb21a365.js"></script>
 	<!-- Charger le code JS -->
 	<script src="index.js"></script>

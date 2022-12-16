@@ -6,12 +6,22 @@ body {
 	justify-content: center;
 }
 
+img {
+	width: 150px;
+	height: 150px;
+}
+
 form {
-	margin-top: 20px;
+	margin-bottom: 10px;
 	background-color: #F1F0FF;
-	padding: 40px 60px;
+	padding: 30px 60px;
 	border-radius: 10px;
 	min-width: 200px;
+}
+
+input::placeholder {
+	color: black;
+	opacity: 1;
 }
 
 form h1 {
@@ -39,12 +49,6 @@ input[type="password"] {
 	position: relative;
 }
 
-form .corps-formulaire i {
-	color: red;
-	position: absolute;
-
-}
-
 form.inputs,
 input[type="submit"] {
 	display: block;
@@ -55,6 +59,7 @@ input[type="submit"] {
 	background-color: #00080E;
 	opacity: 0.6;
 	cursor: pointer;
+	margin-top: 10px;
 }
 
 :required {
