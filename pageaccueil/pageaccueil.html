@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyVet</title>
+    <link rel="stylesheet" href="styleaccueil.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+</head>
+
+<body>
+    <section class="top-page">
+        <header class="header">
+            <img src="C:\Users\utilisateur\Documents\Projet décembre 2022\MyVet\logo_association.png" alt="logo" />
+            <nav class="nav">
+                <li id="compte"><a href="compte">Compte</a></li>
+                <li id="deconnexion"><a href="deconnexion">Déconnexion</a></li>
+            </nav>
+        </header>
+    </section>
+    <div class="container">
+        <section class="landing-page">
+            <h1>Liste des clients</h1>
+            <div class="bouttons">
+                <div class="groupe">
+                    <input id="searchbar" onkeyup="Rechercher_clients()" type="text" name="search"
+                        placeholder="Recherche">
+                    <!-- <i class="fas fa-search"></i> -->
+                </div>
+                <div class="groupe">
+                    <input type="submit" id="ajouter" value="Ajouter">
+                    <!-- <i class="fas fa-plus-circle"></i> -->
+                </div>
+                <div class="groupe">
+                    <div class="filter">
+                        <input type="submit" id="filtrer" value="Filtrer" i class="fas fa-sort-alpha-down"></i>
+                        <!-- <i class="fas fa-filter"></i> -->
+                    </div>
+                </div>
+            </div>
+            <ul class="scroller">
+                <li><a href="client1">Nom du client - N° de dossier</a></li>
+                <li><a href="client2">Nom du client - N° de dossier</a></li>
+                <li><a href="client3">Nom du client - N° de dossier</a></li>
+                <li><a href="client4">Nom du client - N° de dossier</a></li>
+                <li><a href="client5">Nom du client - N° de dossier</a></li>
+                <li><a href="client6">Nom du client - N° de dossier</a></li>
+                <li><a href="client7">Nom du client - N° de dossier</a></li>
+                <li><a href="client8">Nom du client - N° de dossier</a></li>
+            </ul>
+            <form action="mailrappel.php" method="send_email">
+                <a href="mailto:aude.seguin.simplon@gmail.com"></a>
+                <div class="rappel">
+                    <input type="submit" id="rappel" value="Rappel des vaccins">
+                </div>
+            </form>
+        </section>
+        <section class="calendar">
+            <div id="Agenda">
+                <h1>Agenda</h1>
+            </div>
+        </section>
+    </div>
+    <script src="https://kit.fontawesome.com/53cb21a365.js"></script>
+    <script src="pageaccueil.js"></script>
+</body>
+
+</html>

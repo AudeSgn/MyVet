@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@100&display=swap');
+
+body {
+    font-family: Asap, "sans-serif";
+}
+
+header.header {
+    display: flex;
+    align-items: center;
+}
+
+section.top-page {
+    background-color: #F1F0FF;
+    height: 170px;
+    padding: 25px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+nav {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    color: black;
+    border-radius: 10px;
+    list-style-type: none;
+}
+
+#compte {
+    margin-right: 100px;
+}
+
+section.landing-page {
+    background-color: #F1F0FF;
+    width: 460px;
+    height: 450px;
+    margin-right: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.landing-page .inputs,
+input[type="text"],
+input[type="submit"] {
+    display: block;
+    border-radius: 10px;
+    border-width: 0.5px;
+    border-color: black;
+    color: white;
+    background-color: #00080E;
+    opacity: 0.6;
+    cursor: pointer;
+    /* margin-top: 4px; */
+    margin: 8px;
+    width: 60px;
+
+}
+
+#searchbar {
+    width: 70px;
+}
+
+.bouttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* .boutton {
+    position: relative;
+}
+
+.boutton .groupe i {
+    position: absolute;
+    align-items: flex-start; */
+
+#rappel {
+    width: 150px;
+    margin-top: 50px;
+
+}
+
+.scroller {
+    margin-top: 30px;
+    list-style: none;
+    width: 350px;
+    height: 150px;
+    overflow-y: scroll;
+    scrollbar-color: rgb(206, 38, 38) #F1F0FF;
+    scrollbar-width: thin;
+    margin-right: 40px;
+}
+
+.calendar {
+    background-color: #F1F0FF;
+    width: 460px;
+}

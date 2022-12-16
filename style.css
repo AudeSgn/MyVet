@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@100&display=swap');
+
+body {
+	font-family: Asap, "sans-serif";
+	display: flex;
+	justify-content: center;
+}
+
+form {
+	margin-top: 20px;
+	background-color: #F1F0FF;
+	padding: 40px 60px;
+	border-radius: 10px;
+	min-width: 200px;
+}
+
+form h1 {
+	color: black;
+	text-align: center;
+}
+
+form .inputs {
+	display: flex;
+	flex-direction: column;
+}
+
+form .corps-formulaire .inputs,
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+	padding: 8px 10px;
+	border-radius: 10px;
+	border: none;
+	margin-top: 7px;
+	margin-bottom: 5px;
+	min-width: 200px;
+	display: flex;
+	outline: none;
+	position: relative;
+}
+
+form .corps-formulaire i {
+	color: red;
+	position: absolute;
+
+}
+
+form.inputs,
+input[type="submit"] {
+	display: block;
+	border-color: #00080E;
+	border-radius: 10px;
+	padding: 5px 10px;
+	color: white;
+	background-color: #00080E;
+	opacity: 0.6;
+	cursor: pointer;
+}
+
+:required {
+	background-color: #778B99;
+	opacity: 0.6;
+	color: #FFFFFF;
+}
+
+.termsOfUsage {
+	display: flex;
+	justify-content: center;
+}
+
+.conditions {
+	color: black;
+}
+
+#checkbox {
+	margin-right: 8px;
+}
