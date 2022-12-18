@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@100&display=swap');
+
+body {
+    font-family: Asap, "sans-serif";
+}
+
+header.header {
+    display: flex;
+    align-items: center;
+}
+
+section.top-page {
+    background-color: #F1F0FF;
+    height: 170px;
+    padding: 25px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+nav {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    color: black;
+    border-radius: 10px;
+    list-style-type: none;
+}
+
+li {}
+
+#accueil {
+    margin-right: 100px;
+}
+
+#compte {
+    margin-right: 100px;
+}

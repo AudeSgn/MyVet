@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@100&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-family: Asap, "sans-serif";
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+form {
+    margin-bottom: 10px;
+    background-color: #F1F0FF;
+    padding: 100px 100px;
+    border-radius: 10px;
+}
+
+form .inputs,
+input[type="submit"] {
+    display: flex;
+    flex-direction: column;
+    display: block;
+    border-color: #00080E;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+    background-color: #00080E;
+    opacity: 0.6;
+    cursor: pointer;
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: Asap, "sans-serif";
+}
