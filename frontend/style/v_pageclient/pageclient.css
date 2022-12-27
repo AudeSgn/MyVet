@@ -37,3 +37,32 @@ nav {
 #compte {
     margin-right: 100px;
 }
+
+.elementleft {
+    background-color: #F1F0FF;
+    width: 400px;
+    height: 350px;
+    margin-right: 100px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.informations {
+    text-align: center;
+}
+
+input {
+    border-color: #00080E;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+    background-color: #00080E;
+    opacity: 0.6;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 10px;
+}
